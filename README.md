@@ -28,7 +28,7 @@ API REST desarrollada en Laravel para gestionar pedidos y pagos con integración
 ```powershell
 git clone https://github.com/Davs07/latinpay-apitest.git
 cd latinpay-apitest
-./setup.ps1
+./setup.ps1 # En CMD: powershell -File setup.ps1
 ```
 
 ### Opción con make
