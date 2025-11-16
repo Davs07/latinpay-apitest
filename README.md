@@ -219,7 +219,7 @@ curl -X POST http://localhost:8000/api/orders/1/payments \
 ## Testing
 
 ```bash
-# O directamente
+# Ejecutar todos los tests
 docker-compose exec app php artisan test
 
 # Test específico
