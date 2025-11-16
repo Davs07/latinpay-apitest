@@ -27,7 +27,7 @@ API REST desarrollada en Laravel para gestionar pedidos y pagos con integración
 
 ```powershell
 git clone https://github.com/Davs07/latinpay-apitest.git
-cd latinpay-test
+cd latinpay-apitest
 ./setup.ps1
 ```
 
@@ -35,14 +35,14 @@ cd latinpay-test
 
 ```bash
 git clone https://github.com/Davs07/latinpay-apitest.git
-cd latinpay-test
+cd latinpay-apitest
 make setup
 ```
 
 ### Opción manual
 ```powershell
 git clone https://github.com/Davs07/latinpay-apitest.git
-cd latinpay-test
+cd latinpay-apitest
 cp .env.example .env
 docker-compose up -d --build
 docker-compose exec app composer install
